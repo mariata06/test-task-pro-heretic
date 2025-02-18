@@ -1,7 +1,12 @@
 .header {
-  padding: 28px 0;
+  padding: 30px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 
-  background-color: $color-neon-blue;
+  // background-color: $color-neon-blue;
+  background-color: $color-default-white;
+  // border: 1px solid black;
 
   .container {
     display: flex;
@@ -9,5 +14,20 @@
 
   &__logo {
     color: $color-default-white;
+    color: $color-default-black;
+    text-transform: uppercase;
+    // margin-bottom: 400px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 19px;
+    line-height: 19px;
+
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
+
+    img {
+      margin-right: 9px;
+    }
   }
 }

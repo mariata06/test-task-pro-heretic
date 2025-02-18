@@ -8,11 +8,65 @@
 //     url("../fonts/rouble.woff2") format("woff2");
 // }
 
+// @font-face {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-family: "";
+
+//   font-display: swap;
+//   src: url("../fonts/.woff2") format("woff2");
+// }
+
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "";
+  font-family: "optimus-princeps-cyr";
 
   font-display: swap;
-  src: url("../fonts/.woff2") format("woff2");
+  src: url("../fonts/optimus-princeps-cyr.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "optimus-princeps-cyr";
+
+  font-display: swap;
+  src: url("../fonts/optimus-princeps-cyr.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "playfair-display-black";
+
+  font-display: swap;
+  src: url("../fonts/playfair-display-black.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "playfair-display-black";
+
+  font-display: swap;
+  src: url("../fonts/playfair-display-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "playfair-display-bold";
+
+  font-display: swap;
+  src: url("../fonts/playfair-display-bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "playfair-display-bold";
+
+  font-display: swap;
+  src: url("../fonts/playfair-display-bold.woff2") format("woff2");
 }

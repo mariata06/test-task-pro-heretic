@@ -1,0 +1,67 @@
+mixin about()
+  .about
+    //- вставлять блоки во внешний контейнер неверно
+    //- все блоки содержат в себе container без доп класса tutorial__wrapper
+    .about__img
+      +img("content", "about-bg", "png", "", "", "about bg image")
+    .container
+      .about__content
+        .about__desc
+          h2.title.title--h2.about__title Снижаем уровень ереси с XIII века.
+          .about__stat
+            .about__stat-item
+              span.about__stat-num 1478
+              span.about__stat-name Год основания компании в&nbsp;Европе
+
+            .about__stat-item
+              span.about__stat-num 3687
+              span.about__stat-name Клиентов довольны нами
+
+        .about__list
+          .about__item
+            .about__item-icon
+              +img("content", "icon-tech", "png", "68", "68", "about image")
+            .about__item-text
+              .about__item-title.title.title--h3 Точность и технологии
+              .about__item-desc Наша уникальная технология анализа основана на вере и глубоких убеждениях, что гарантирует стабильность и достоверность результатов.
+              .about__item-desc Точность результата оценивается в 146% всеми Проповедниками нашего культа.
+
+          .about__item
+            .about__item-icon
+              +img("content", "icon-diagram", "png", "68", "72", "about image")
+            .about__item-text
+              .about__item-title.title.title--h3 Держи свой уровень греха на нуле
+              .about__item-desc Установи уникальное приложение "Печать ереси" на свой смартфон и будь всегда в курсе своего состояния.
+              .about__item-desc Заходи в наш официальный интернет магазин, приобретай иконки и свечки, и снижай свой статус ереси online!
+
+          .about__item
+            .about__item-icon
+              +img("content", "icon-dollar", "png", "45", "72", "about image")
+            .about__item-text
+              .about__item-title.title.title--h3 Интеграция со всеми храмами
+              .about__item-desc Результаты проверки незамедоительно попадут в БД братства.
+              .about__item-desc Просто посетив ближайшую церковь, вам предоставят прайс лист с подхотящими именно Вам решениями для оцищения от ереси.
+
+          .about__item
+            .about__item-icon
+              +img("content", "icon-like", "png", "68", "58", "about image")
+            .about__item-text
+              .about__item-title.title.title--h3 Безопасность
+              .about__item-desc Ваши данные в надежных руках!
+              .about__item-desc Мы гарантируем безопасную передачу ваших личных данных в любые другие организации по нашему усмотрению.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

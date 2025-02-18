@@ -3,8 +3,18 @@ mixin intro()
     //- вставлять блоки во внешний контейнер неверно
     //- все блоки содержат в себе container без доп класса tutorial__wrapper
     .container
-      p(style="margin-top: 40px;") Текст&nbsp;с&nbsp;мнемониками
+      .intro__content
+        .intro__desc
+          h1.title.title--h1.intro__title Печать ереси <span>WEB SDK</span>
+          p.intro__paragraph Сдеалй селфи и узнай насколько ты еретик
+          p.intro__paragraph Умная система биометрии проверит энергетические поля, проведет анализ ауры и выдаст рекомендации к очищению
+          form(action="#").form
+            button(type="submit").form__submit.btn.btn--orang-bg Провериться
+            .form__input-wrapper
+              label(for="agree-checkbox")
+                input(type="checkbox" id="agree-checkbox")
+                span(class="checkmark")
+                | Я согласен гореть в аду в случае высокого уровня ереси в крови
 
-      p(style="margin-top: 40px;") Пример использования +img()
-      p(style="margin-bottom: 40px;")
-        +img("content", "placeholder", "png", 120, 120, "Пример")
+        .intro__img
+          +img("content", "iphone", "png", "", "", "iphone")
